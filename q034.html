@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>마비노기 팔라딘 · 변상웅</title>
+<style>
+  :root { --ink:#1a1a1a; --sub:#6b6b6b; --line:#e6e6e6; --accent:#0b5; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+         color:var(--ink); line-height:1.7; background:#fafafa; }
+  .wrap { max-width:680px; margin:0 auto; padding:28px 22px 64px; }
+  .ip { display:inline-block; font-size:13px; letter-spacing:.04em; color:#fff;
+         background:#111; padding:5px 12px; border-radius:999px; }
+  h1 { font-size:27px; margin:16px 0 6px; line-height:1.3; }
+  .meta { color:var(--sub); font-size:15px; margin:0 0 18px; }
+  .quote { font-size:17px; font-style:italic; color:#333; border-left:3px solid var(--accent);
+            padding:10px 0 10px 16px; margin:0 0 30px; background:#fff; }
+  .qa { border-top:1px solid var(--line); padding:20px 0 4px; }
+  .qa h2 { font-size:16px; color:var(--accent); margin:0 0 8px; font-weight:700; }
+  .qa p { margin:0; font-size:16px; }
+  footer { margin-top:40px; color:#aaa; font-size:13px; text-align:center; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="ip">마비노기</span>
+    <h1>마비노기 팔라딘</h1>
+    <p class="meta">변상웅 · 넥슨코리아</p>
+    <p class="quote">안녕 플레이오네, 안녕 언리얼 엔진</p>
+    
+      <section class="qa">
+        <h2>Q1. 이번 작품은 어떤 계기에서 시작되었나요?</h2>
+        <p>마비노기의 플레이오네 엔진을 대신해 언리얼 엔진 5의 최신 기술을 활용하여, 메인스트림 제너레이션 중 팔라딘을 표현해 보고자 했습니다. 아트 디자인 또한 오리지널 마비노기 디자인을 계승하되, 언리얼 엔진 5의 강점인 실시간 광원 처리를 도입했을 때 어떤 결과물이 나올지 고민하며 이번 작품을 준비했습니다. 특히 원작이 지향했던 이미지가 루멘 기능과 조화롭게 어우러져, 타협 없는 구현이 가능할 것이라 판단했습니다. 단순히 그래픽 퀄리티를 높이는데 그치지 않고, 원작 고유의 디자인을 유지하면서도 기술적 한계를 넘어선 클래식 리마스터링을 목표로 삼았습니다. 이번 작업을 통해 언리얼 엔진 5의 전반적인 기능을 학습하고, 나아가 실무 작업 환경에도 이를 참고 및 적용하여 한층 더 발전된 그래픽 결과물을 만들고자 하였습니다.</p>
+      </section>
+      <section class="qa">
+        <h2>Q2. 이번 작품에서 가장 중요하게 생각한 표현은 무엇인가요?</h2>
+        <p>과거 플레이오네 엔진 기반에서는 불가능했던 하드웨어 제약의 극복, 그리고 이를 통해 구현된 상반된 재질 간의 대비 효과를 중요시 생각했습니다. 가장 먼저 집중한 부분은 팔라딘의 상징인 미스릴 갑옷의 재질 표현입니다. 과거에는 낮은 폴리곤과 정적인 텍스처로 인해 금속 특유의 물리적 성질을 묘사하는데 한계가 있었지만, 이번 프로젝트에서는 언리얼 엔진 5를 활용하여, 광원에 실시간으로 반응하는 미스릴 재질의 완성도를 높이는 데 중점을 두었습니다. 여기에 미스릴 재질과 대비되는 털 표현의 경우, 이전 엔진에서는 덩어리진 형태나 단순한 투명도 맵으로 처리해야 했던 부분을 언리얼 엔진 5의 스트랜드 기반 그룸으로 재해석하였습니다. 결과적으로 원작 고유의 디자인을 유지하면서도, 과거 하드웨어의 제약으로 인해 단순한 면과 텍스처로만 표현되었던 팔라딘의 갑옷을 재정립하는 데 집중하였습니다.</p>
+      </section>
+      <section class="qa">
+        <h2>Q3. 이번 작업 과정에서 가장 고민이 많았던 부분은 무엇이었나요?</h2>
+        <p>원작의 디자인과 표현이 과거 엔진 기반으로 제작되다 보니, 참고 자료를 수집하여 현대적으로 재해석하는 데 어려움이 많았습니다. 특히 디자인 특성상 털 표현이 관절 부위에 위치하여, 포즈를 취할 때 털이 갑옷을 뚫고 나오는 현상을 해결하는 것이 까다로운 과제였습니다. 또한 팔라딘 갑옷의 핵심인 미스릴은 실존하지 않는 가상의 금속이기에 적절한 레퍼런스를 확보하고 재질을 구현 하는 과정에서 시행착오를 겪었습니다. 단순한 금속 재질처럼 보일 수 있는 위험을 방지하고자, 신비로움을 더하기 위해, 머티리얼 연산 과정에서 표면 반사율을 의도적으로 물리 법칙에서 벗어나게 설정하는 등 미스릴만의 고유한 질감을 표현하기 위해 고민하며 재해석하였습니다.</p>
+      </section>
+      <section class="qa">
+        <h2>Q4. 이 작품을 통해 관객이 어떤 장면이나 감정을 떠올리기를 바라시나요?</h2>
+        <p>예전에는 낮은 해상도와 기술적 제약 때문에 머릿속 상상으로만 채워야 했던 모습이, 최신 기술을 만나면 얼마나 어떻게 변할 수 있는지를 생각해 보았습니다. 마비노기를 처음 즐겼을 때와 비교하여, 단순히 “그래픽이 좋아졌네”라는 느낌을 넘어, “내가 생각했던 모습은 이런 것이었을까&quot;라는 생각을 떠올리면 좋을 것 같습니다. 이 작품이 누군가에게는 옛 추억을 꺼내 보거나, 또 누군가에게는 클래식한 디자인이 최신 기술과 만났을 때 전해지는 즐거움이 되기를 바랍니다.</p>
+      </section>
+      <section class="qa">
+        <h2>Q5. 작품을 설명하는 키워드를 말씀해주세요.</h2>
+        <p>마비노기 ㆍ 세대교체 ㆍ 추억</p>
+      </section>
+    <footer>NEXTAGE 게임아트 전시회</footer>
+  </div>
+</body>
+</html>
